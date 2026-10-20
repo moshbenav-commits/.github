@@ -1,0 +1,35 @@
+# --- Creytix repo standard: .gitignore baseline v1 (2026-10-20) ---
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Build output
+dist/
+build/
+target/
+bin/
+obj/
+.next/
+.open-next/
+.wrangler/
+out/
+# Caches, logs, coverage
+.cache/
+*.log
+coverage/
+.nyc_output/
+# OS / editor
+.DS_Store
+.idea/
+.vs/
+.vscode/*
+!.vscode/extensions.json
+# Local env & secrets (never commit real values)
+.env
+.env*.local
+*.pem
+*.key
+# --- end Creytix baseline ---
